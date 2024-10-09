@@ -1,0 +1,12 @@
+-Wall
+-Wextra
+-Werror
+-Wconversion
+-Wsign-conversion
+-Weffc++
+-pedantic-errors
+-std=c++23
+-xc++
+-I./libs/glad/include
+-I./src
+-I/usr/include/SDL2
