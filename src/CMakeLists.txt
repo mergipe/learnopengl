@@ -1,5 +1,5 @@
 add_executable(learnopengl
-               Main.cpp) 
+    Main.cpp Shader.cpp) 
 target_compile_features(learnopengl PRIVATE cxx_std_23)
 set_target_properties(learnopengl PROPERTIES CXX_EXTENSIONS OFF)
 target_include_directories(learnopengl PUBLIC .)
